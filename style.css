@@ -33,6 +33,7 @@ h1{
 }
 
 button {
+    margin: 10px;
     background-color: var(--cor-secundaria);
     color: var(--cor-texto);
     border: none;
