@@ -1,0 +1,42 @@
+body {
+    background-color: #111;
+    color: #eee;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa-secreta {
+    background-color: #222;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    background-color: #00aaff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#mensagem-secreta {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00ff88;
+}
