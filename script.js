@@ -22,11 +22,11 @@ const perguntas = [
         enunciado: "o que vc acha das IAs ",
         alternativas: [
             {
-                texto: "não gosto delas",
+                texto: "gosto delas",
                 afirmacao: "1"
             },
             {
-                texto: "gosto delas",
+                texto: "não gosto delas",
                 afirmacao: "2"
             },
             {
@@ -54,11 +54,11 @@ const perguntas = [
         enunciado: "quantas decisões humanas você acha que já foram manipuladas por IAs e agente nem percebeu?",
         alternativas: [
             {
-                texto: "nem uma, não precisamos de IAs para tomar nossas desisões!",
+                texto: " algumas, muitas pessoas usam para isso!",
                 afirmacao: "1"
             },
             {
-                texto: "algumas, muitas pessoas usam para isso!",
+                texto: "nem uma, não precisamos de IAs para tomar nossas desisões!",
                 afirmacao: "2"
             }
         ]
@@ -67,15 +67,15 @@ const perguntas = [
         enunciado: "Como saber se você não está vivendo em uma situação manipulada por uma IA? ",
         alternativas: [
             {
-                texto: "se eu não usa, não tem como.",
+                texto: "eu achou improvável, as IAs só viaram para ajuda.",
                 afirmacao: "1"
             },
             {
-                texto: "eu achou improvável, as IAs só viaram para ajuda.",
+                texto: "se eu não usa, não tem como.",
                 afirmacao: "2"
             },
              {
-                texto: "eu vivo numa situação que a ia quer.",
+                texto: "eu vivo numa situação que a ia quer?",
                 afirmacao: "3"
             }
         ]
@@ -84,11 +84,11 @@ const perguntas = [
         enunciado: "E se a IA aprendesse a mentir melhor do que qualquer humano ou as IA decidisse que os humanos são o principal obstáculo à preservação da Terra e quisesse  nós eliminar por meio de uma guerrera, o que você faria? ",
         alternativas: [
             {
-                texto: "não seria possivel, os humanos venceriam",
+                texto: "fugiria para um ligar sem internet",
                 afirmacao: "1"
             },
             {
-                texto: "fugiria para um ligar sem internet ",
+                texto: "não seria possivel, os humanos venceriam ",
                 afirmacao: "2 "
             },
              {
