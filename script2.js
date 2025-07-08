@@ -28,5 +28,8 @@ function verificarSenha() {
         mensagem.textContent = "você sabe subestima as IAs";
     } else if (cont3 >= 3) {
         mensagem.textContent = "você não sabe o que é IA?";
-    } 
+    } else if (cont3 >= 1 && cont1 >= 2 && cont2 >= 2) {
+    mensagem.innerHTML = '<img src="el primo.gif" alt="GIF de IA" width="300">';
+}
+
 }
