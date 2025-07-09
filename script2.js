@@ -8,7 +8,6 @@ function verificarSenha() {
         return;
     }
 
-    // Conta os números
     let cont1 = 0, cont2 = 0, cont3 = 0;
     for (let i = 0; i < senha.length; i++) {
         if (senha[i] === "1") cont1++;
