@@ -3,10 +3,10 @@
     --cor-principal: #1fa80d6d ;
     --cor-secundaria: #909090; 
     --cor-destaque: #690a0a;
-    --cor-destaque2: #690a0a;
-    --cor-destaque3: #690a0a;
-    --cor-destaque4: #690a0a;
-    --cor-destaque5: #690a0a;
+    --cor-destaque2: #000000;
+    --cor-destaque3: #ffffff;
+    --cor-destaque4: #000000;
+    --cor-destaque5: #ffffff;
     --cor-texto: #000000;
 
 }
@@ -21,16 +21,19 @@ body {
 }
 
 .caixa-principal{
-    background-color: var(--cor-principal);
+    background-color: var(--cor-principal); 
     width: 90%;
     max-width: 600px;
     text-align: center;
     padding: 20px;
 }
 
-h1{
-    color: var(--cor-destaque);
+h1 {
+  color: var(--cor-destaque);
+  transition: color 0.3s ease;
 }
+
+
 
 button {
     margin: 10px;
@@ -42,7 +45,9 @@ button {
     transition: background-color 0.3s;
 }
 
-button:hover{
-    background-color: var(--cor-destaque);
+button:hover {
+    background-image: linear-gradient(to right, var(--cor-destaque), var(--cor-destaque2), var(--cor-destaque3), var(--cor-destaque4), var(--cor-destaque5));
     color: var(--cor-principal);
 }
+
+
