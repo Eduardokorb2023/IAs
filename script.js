@@ -140,23 +140,12 @@ function mostraResultado() {
 
 mostraPergunta();
 
-
-const h1 = document.querySelector('h1');
-const rootStyles = getComputedStyle(document.documentElement);
-
-const cores = [
-  rootStyles.getPropertyValue('--cor-destaque').trim(),
-  rootStyles.getPropertyValue('--cor-destaque2').trim(),
-  rootStyles.getPropertyValue('--cor-destaque3').trim(),
-  rootStyles.getPropertyValue('--cor-destaque4').trim(),
-  rootStyles.getPropertyValue('--cor-destaque5').trim()
-];
-console.log(cores);
+const cores = [' #690a0a', ' #000000', '#ffffff', ' #000000', '#ffffff'];
 let indice = 0;
 
-document.querySelectorAll('button').forEach(botao => {
-  botao.addEventListener('click', () => {
-    indice = (indice + 1) % cores.length;
-    h1.style.color = cores[indice];
-  });
+document.addEventListener('click', () => {
+  document.documentElement.style.setProperty('--cor-destaque', cores[indice]);
+  indice = (indice + 1) % cores.length;
 });
+
+
